@@ -1,16 +1,6 @@
-// const headingReact = React.createElement('h1',{id:"heading", attr:'XYZ0'},"This heading is the from React!");\
-/**
- * 
- * <div id="parent">
- *  <div id="child">
- *      <h1>I am heading tag</h1>
- *      <h2>I am headingTwo tag</h2>
- *  </div>
- * </div>
- * 
- * ReactElement(Object)=> HTML(Browser Undersatands)
- * 
- */
+
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement('div',{id:"parent"},
     [React.createElement('div',{id:"child"},
@@ -27,3 +17,22 @@ const parent = React.createElement('div',{id:"parent"},
 console.log("parent",parent);
 root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(parent);
+
+
+
+
+
+
+// const headingReact = React.createElement('h1',{id:"heading", attr:'XYZ0'},"This heading is the from React!");\
+/**
+ * 
+ * <div id="parent">
+ *  <div id="child">
+ *      <h1>I am heading tag</h1>
+ *      <h2>I am headingTwo tag</h2>
+ *  </div>
+ * </div>
+ * 
+ * ReactElement(Object)=> HTML(Browser Undersatands)
+ * 
+ */

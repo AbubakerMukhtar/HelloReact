@@ -1,0 +1,36 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "This is hello react app for practicing purpose only.",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbubakerMukhtar/HelloReact.git"
+  },
+  "keywords": [
+    "react",
+    "namaste-react",
+    "hello-react"
+  ],
+  "author": "AbubakerMukhtar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbubakerMukhtar/HelloReact/issues"
+  },
+  "homepage": "https://github.com/AbubakerMukhtar/HelloReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-stepper-horizontal": "^1.0.11"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
