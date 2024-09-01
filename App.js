@@ -10,6 +10,8 @@ const heading = (<h1 id="heading" tabIndex="5">My React Element is Here!</h1>);
 // 1.Class based Component - OLD
 // 2.Functional Component - NEW
 
+
+// Using componets into a component is compostion of componets
 // React Functional Component
 const MyComponent2 = () => <h6>Component 2 is Here!!!!</h6>
 function MyComponent3() {
