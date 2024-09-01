@@ -4,6 +4,8 @@
   "description": "This is hello react app for practicing purpose only.",
   
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {

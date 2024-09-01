@@ -2,20 +2,33 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// JSX is  like HTML and XML like syntax
-// JSX is  not in React or JS
-// JSX code transpiled before it reaches to JS engine and its done by Bundler --> Bable packge in our bundler
-// JSX ==> Bable transpile it to React.createElement ==> ReactElement-JS Object ==> HTMLElement(render)
+// React Element
+const heading = (<h1 id="heading" tabIndex="5">My React Element is Here!</h1>);
 
-const reactElement= React.createElement("h1",{id:"heading"},"This is ReactElement Heading!");
-console.log("reactElement",reactElement);
-const jsxElement= (<h1 id="heading" tabIndex="5">This is jsxElement Heading!</h1>);
-console.log("jsxElement",jsxElement);
 
-//reactElement === jsxElement
+//  React Component
+// 1.Class based Component - OLD
+// 2.Functional Component - NEW
+
+// React Functional Component
+const MyComponent2 = () => <h6>Component 2 is Here!!!!</h6>
+function MyComponent3() {
+    return(
+    <h6>Component 3 is Here!!!!</h6>);
+}
+
+const MyComponent = () => (
+    <div id="container">
+        <h1>My React Functional Component is Here!!!!</h1>
+        {12 + 18}
+        {heading}
+        <MyComponent2></MyComponent2>
+        <MyComponent3 />
+    </div>
+)
 
 root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(reactElement);
+root.render(MyComponent());
 
 
 
