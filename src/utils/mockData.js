@@ -2,6 +2,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/f9cee5",
         type: "F",
         id: "334475",
         name: "KFC",
@@ -127,6 +128,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/61a65",
         type: "F",
         id: "229",
         name: "Meghana Foods",
@@ -253,7 +255,7 @@ const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      data: {url: "https://via.placeholder.com/600/197d29",
         type: "F",
         id: "121603",
         name: "Kannur Food Point",
@@ -389,6 +391,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/66b7d2",
         type: "F",
         id: "307050",
         name: "Call Me Chow",
@@ -514,6 +517,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/1ee8a4",
         type: "F",
         id: "337335",
         name: "Kannur food kitchen",
@@ -649,6 +653,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url : "https://via.placeholder.com/600/810b14",
         type: "F",
         id: "492159",
         name: "Roti Wala",
@@ -769,6 +774,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/51aa97",
         type: "F",
         id: "65797",
         name: "Leon's - Burgers & Wings (Leon Grill)",
@@ -894,6 +900,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/54176f",
         type: "F",
         id: "425",
         name: "Hotel Empire",
@@ -1014,6 +1021,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/b0f7cc",
         type: "F",
         id: "428",
         name: "Biryani Pot",
@@ -1133,6 +1141,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/56a8c2",
         type: "F",
         id: "306639",
         name: "The Coorg Food Co.",
@@ -1258,6 +1267,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/f66b97",
         type: "F",
         id: "63957",
         name: "Madeena Hotel",
@@ -1378,6 +1388,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/d32776",
         type: "F",
         id: "71298",
         name: "Bengali Fun Foods",
@@ -1503,6 +1514,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/24f355",
         type: "F",
         id: "59593",
         name: "Al Daaz",
@@ -1629,6 +1641,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/771796",
         type: "F",
         id: "5934",
         name: "Burger King",
@@ -1764,6 +1777,7 @@ const resList = [
     {
       type: "restaurant",
       data: {
+        url: "https://via.placeholder.com/600/92c952",
         type: "F",
         id: "365010",
         name: "Hotel Salam",

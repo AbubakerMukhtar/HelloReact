@@ -1,11 +1,10 @@
 import React from "react";
-import { CDN_URL } from "../utils/constants";import {LOGO_URL} from "../utils/constants";
 
 const ResturantCard = (props) => {
   const { resData } = props;
 
   const {
-    cloudinaryImageId,
+    url,
     name,
     avgRating,
     cuisines,
@@ -16,8 +15,7 @@ const ResturantCard = (props) => {
   return (
     <div className="res-card">
       <div className="card-img-container">
-        {/* <img alt={name} src={CDN_URL + cloudinaryImageId} /> */}
-        <img alt={name} src={LOGO_URL} />
+        <img alt={name} src={url} />
       </div>
       <div className="dish-container">
         <h6 className="dish-name">{name}</h6>

@@ -62,20 +62,17 @@ body {
   gap: 20px;
 }
 .body .search > input {
-  height: 40px;
+  height: 50px;
   width: 300px;
   padding: 0px 10px;
   border: 1px solid #dddd;
 }
 .body .search > button {
-  height: 40px;
-  width: 100px;
-  background-color: yellowgreen;
+  height: 50px;
   color: brown;
   border: 1px solid #dddd;
-  border-radius: 4px;
-  color: brown;
-  font-size: 18px;
+  border-radius: 8px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 22px;
 }
